@@ -1,20 +1,3 @@
-# bento-com
-
-## Data download & construction
-
-```bash
-$ git clone https://github.com/dai-570415/bento-com.git
-
-$ cd bento-com
-
-$ npm install
-
-$ npm start
-```
-
-- Setting(Firebase.js)
-
-```js
 import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/firestore';
@@ -34,10 +17,3 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 export default firebase;
-```
-
-- Setting(components/article/Hyogo.js)
-
-```js
-const keyId = 'Your_Key'; // ぐるなびAPI KEY
-```
